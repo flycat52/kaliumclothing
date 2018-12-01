@@ -1,0 +1,46 @@
+{
+  "name": "kalium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narias16/kalium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narias16/kalium/issues"
+  },
+  "homepage": "https://github.com/narias16/kalium#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-cache-controller": "^1.1.0",
+    "express-session": "^1.15.6",
+    "jquery-validation": "^1.18.0",
+    "nodemailer": "^4.6.8",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.5.0",
+    "pg-promise": "^8.5.1",
+    "request": "^2.88.0",
+    "sessionstorage": "^0.1.0",
+    "striptags": "^3.1.1",
+    "sweetalert": "^2.1.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
